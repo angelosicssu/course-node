@@ -20,3 +20,19 @@
 - No Window
 - Server Side Apps
 - No access to browser APIs
+
+## installation
+
+- difference between LTS and Current
+- LTS: Long Time Support
+- Current: Bugs and development
+
+## program execution
+
+### first option:
+- navigate to cli
+- type "node program.js"
+
+### second option:
+- use the cli in vscode
+- -> dash (traço)
