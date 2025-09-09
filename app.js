@@ -1,17 +1,12 @@
-// globals -- variables that can alwayds acessed
+// modules - encapsulated code
+// every file in node is module
 
-// __dirname     -> path to current directory
-// __filename    -> file name
-// require       -> function to use modules (CommonJS)
-// module        -> info about current module (file)
-// process       -> info about env where the program is being executed
+const names = require('./4-names');
+const sayHi = require('./5-utils');
 
-console.log(__dirname);
-console.log("------------------");
-console.log(__filename);
-console.log("------------------");
-console.log(require);
-console.log("------------------");
-console.log(module);
-console.log("------------------")
-console.log(process);
+sayHi(names.angelo);
+sayHi(names.john);
+sayHi(names.peter);
+sayHi("Felipe");
+
+console.log("This is my first node app");

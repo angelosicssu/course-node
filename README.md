@@ -36,3 +36,16 @@
 ### second option:
 - use the cli in vscode
 - -> dash (traço)
+
+## globals
+- variables used to access properties
+- __dirname
+- __filename
+- require
+- module
+- process
+
+## modules
+- The code cannot be messed up
+- To export, you need to use module.exports = { content }
+- And to use variables from module.exports, you need to use require('./directory)
