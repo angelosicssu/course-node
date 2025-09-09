@@ -1,12 +1,12 @@
-// modules - encapsulated code
-// every file in node is module
+const path = require('path');
 
-const names = require('./4-names');
-const sayHi = require('./5-utils');
+console.log(path.sep);
 
-sayHi(names.angelo);
-sayHi(names.john);
-sayHi(names.peter);
-sayHi("Felipe");
+const filePath = path.join('/content', 'subfolder', 'test.txt');
+console.log(filePath);
 
-console.log("This is my first node app");
+const base = path.basename(filePath);
+console.log(base);
+
+const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt');
+console.log(absolute);
