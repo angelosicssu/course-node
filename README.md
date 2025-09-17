@@ -57,3 +57,9 @@
 - http
 
 ### sync x async
+- sync: tasks one after another
+- async: tasks at the same time
+
+### http
+- to create a server: http.createServer() -> callback
+- to create a port for the server: server.listen(port)
