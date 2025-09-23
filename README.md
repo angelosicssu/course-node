@@ -63,3 +63,16 @@
 ### http
 - to create a server: http.createServer() -> callback
 - to create a port for the server: server.listen(port)
+
+## npm
+
+### info
+- npm allows you to do three things:
+    i.   reuse our code
+    ii.  use code written by others developers
+    iii. to share our results with others developers
+- commands:
+    npm i <packageName> -> local dependency
+    npm install -g <packageName> -> global dependency
+- package.json: is very important for working with others developers
+    installation: npm init / npm init -y

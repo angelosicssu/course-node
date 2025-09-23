@@ -1,0 +1,24 @@
+{
+  "name": "course-node",
+  "version": "1.0.0",
+  "description": "- NodeJS is enviroment to run JS outside browser - Made in 2009 and is built using the google chrome V8 engine - Development FullStack",
+  "homepage": "https://github.com/angelosicssu/course-node#readme",
+  "bugs": {
+    "url": "https://github.com/angelosicssu/course-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelosicssu/course-node.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "lodash": "^4.17.21"
+  }
+}
