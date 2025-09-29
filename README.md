@@ -78,3 +78,14 @@
     installation: npm init / npm init -y
 
 ## share code
+- usually the developers hide the package node_modules, because it is very big
+- But if you have package.json everything is fine
+
+## nodemon
+- used to not reboot node.js server
+
+## package.json
+- dependencies -> used in the project
+- devDependecies -> used during development
+- scripts -> shortcuts
+- start and test not need "npm run"
