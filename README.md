@@ -76,3 +76,5 @@
     npm install -g <packageName> -> global dependency
 - package.json: is very important for working with others developers
     installation: npm init / npm init -y
+
+## share code
