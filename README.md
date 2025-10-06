@@ -51,9 +51,9 @@
 - And to use variables from module.exports, you need to use require('./directory)
 
 ### built-in modules
-- os
-- path
-- fs
+- os: information about operating system
+- path: manipulates file and directory paths
+- fs: works with file system (read, write, edit,....)
 - http
 
 ### sync x async
@@ -89,3 +89,16 @@
 - devDependecies -> used during development
 - scripts -> shortcuts
 - start and test not need "npm run"
+
+## global install
+- use it in any project
+- npm install -g <packageName>
+
+## event loops
+- operations that last a long time, do not interrupt the main flow
+- phases:
+    i.   timers: callbacks executed
+    ii.  input/output: reads file/write file
+    iii. pool: node checks if new input/outputw events are ready
+    iv.  check: where the callbacks are executed
+    v.   close callbacks: where callbacks are finished
