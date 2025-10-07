@@ -102,3 +102,10 @@
     iii. pool: node checks if new input/outputw events are ready
     iv.  check: where the callbacks are executed
     v.   close callbacks: where callbacks are finished
+
+## async patterns
+- promises:
+    promise.then().catch().finally()
+    then -> if ok
+    catch -> if err
+    finally -> finally
