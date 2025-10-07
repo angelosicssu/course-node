@@ -109,3 +109,7 @@
     then -> if ok
     catch -> if err
     finally -> finally
+
+## events emitter
+
+## streams
