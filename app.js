@@ -1,13 +1,14 @@
 const http = require('http');
+const fs = require('fs');
 
-//const server = http.createServer((req, res) => {
-//    res.end('Welcome');
-//})
-
-const server = http.createServer();
-
-server.on('request', (req, res) => {
-    res.end('Welcome');
-});
-
-server.listen(5000);
+http.createServer((req, res) => {
+    //const text = fs.readFileSync('./content/big.txt', 'utf-8');
+    //res.end(text);
+    const fileStream = fs.createReadStream('./content/big.txt', 'utf-8');
+    fileStream.on('open', () => {
+        fileStream.pipe();
+    })
+    fileStream.on('error', (err) => {
+        res.end(err);
+    })
+}).listen(5000);
